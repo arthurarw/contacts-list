@@ -14,9 +14,10 @@ Entre na pasta backend e execute o comando:
 composer install
 ```
 
-Após isso, crie uma cópia do arquivo .env.example e renomeie para .env
+Após isso, crie uma cópia do arquivo ```.env.example``` e renomeie para ```.env```
 Dentro do mesmo edite as configurações do seu banco:
-```DB_DATABASE=
+```
+DB_DATABASE=
 DB_USERNAME=
 DB_PASSWORD=
 ``` 
