@@ -15,6 +15,10 @@ class PersonContact extends Model
 {
     use SoftDeletes, SoftCascadeTrait;
 
+    const CONTACT_TYPE_WHATSAPP = 1;
+    const CONTACT_TYPE_PHONE = 2;
+    const CONTACT_TYPE_EMAIL = 3;
+
     /**
      * The attributes that are mass assignable.
      *
